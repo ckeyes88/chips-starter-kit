@@ -1,0 +1,29 @@
+{
+  "name": "chips-starter-kit",
+  "author": "Chip Keyes <chip.keyes88@gmail.com",
+  "description": "This is my basic start kit using react-create-app and adding int Redux, React-Router, and Portals XHR/HTTP package. The demo app shows an example of using redux and portals",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "custom-react-scripts": "0.0.23",
+    "react-devtools": "^2.0.6",
+    "react-scripts": "0.9.0",
+    "redux-logger": "^2.8.1"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "portals": "^1.0.9",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "start": "env REACT_APP_STYLUS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
